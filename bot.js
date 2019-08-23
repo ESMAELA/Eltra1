@@ -19,7 +19,6 @@ const googl = require('goo.gl');
 const translate = require('google-translate-api'); 
 const fs = require("fs");      
 const moment = require("moment");  
-const { Client, Util } = require('discord.js');  
 const UserBlocked = new Set();   
 const jimp = require('jimp');   
 const math = require('math-expression-evaluator'); 
