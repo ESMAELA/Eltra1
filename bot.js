@@ -1,4 +1,18 @@
 const Discord = require('discord.js');
+const Util = require('discord.js');
+const getYoutubeID = require('get-youtube-id');
+
+
+const YouTube = require('simple-youtube-api');
+
+const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
+
+
+
+
+const gif = require("gif-search");
+
+const client = new Discord.Client({disableEveryone: true});
 const db = require('quick.db');
 const client = new Discord.Client();   
 const giphy = require('giphy-api')();    
